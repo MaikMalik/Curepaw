@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CurePaw</string>
+    <string name="login_subtitle">La aplicación perfecta para el cuidado de tus mascotas</string>
+    <string name="login_button_loggin">Iniciar sesión</string>
+    <string name="introduction_button_signin">Crear cuenta</string>
+    <string name="login_hint_user">Correo</string>
+    <string name="login_hint_password">Contraseña</string>
 </resources>

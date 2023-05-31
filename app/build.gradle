@@ -3,7 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
-    id 'com.google.gms.google-services'
+    //id 'com.google.gms.google-services'
 }
 
 android {
@@ -63,14 +63,21 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
     //Firebase
-    implementation platform('com.google.firebase:firebase-bom:28.2.1')
-    implementation 'com.google.firebase:firebase-analytics-ktx'
-    implementation 'com.google.firebase:firebase-auth-ktx'
-    implementation 'com.google.firebase:firebase-firestore-ktx'
+    //implementation platform('com.google.firebase:firebase-bom:28.2.1')
+    //implementation 'com.google.firebase:firebase-analytics-ktx'
+    //implementation 'com.google.firebase:firebase-auth-ktx'
+    //implementation 'com.google.firebase:firebase-firestore-ktx'
     //Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
     //Lottie
     implementation 'com.airbnb.android:lottie:5.0.3'
+
+    //para la API
+    //coger la url de la api y convertirla en imagen en nuestra app
+    implementation "com.squareup.picasso:picasso:2.71828"
+    //refrofit-
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

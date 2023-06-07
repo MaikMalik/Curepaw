@@ -5,4 +5,10 @@
     <string name="introduction_button_signin">Crear cuenta</string>
     <string name="login_hint_user">Correo</string>
     <string name="login_hint_password">Contraseña</string>
+    <string name="login_sign_in">¿Todavía no tienes cuenta? Regístrate</string>
+    <string name="signin_form_nickname">Nombre público de usuario</string>
+    <string name="signin_form_real_name">Nombre completo</string>
+    <string name="signin_form_email">Correo electrónico</string>
+    <string name="signin_form_password">Contraseña</string>
+    <string name="signin_form_repeat_password">Repetir contraseña</string>
 </resources>
